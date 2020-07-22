@@ -1,18 +1,18 @@
 # MeetingRoomReservation
 # Softwares to be installed
-1.JDK 1.8
-2.Maven 3.6.3 - can be downloaded from https://maven.apache.org/download.cgi
-3.MySQL 8.0.19 or above - can be downloaded from https://www.mysql.com/downloads/
+1. JDK 1.8
+2. Maven 3.6.3 - can be downloaded from https://maven.apache.org/download.cgi
+3. MySQL 8.0.19 or above - can be downloaded from https://www.mysql.com/downloads/
 
 # Steps for build & execution for all APIs
 
-1.Build the source-code using maven:
+1. Build the source-code using maven:
 command: <source code directory where pom.xml is available>mvn clean packagemvn clean package
 
-2.DB creation  : create the database meeting.
+2. DB creation  : create the database meeting.
 SQL command : create database meeting;
 
-3.execute jar file:
+3. Execute jar file:
 java -jar target\meeting-0.0.1-SNAPSHOT.jar
 
 # List of all assumptions
